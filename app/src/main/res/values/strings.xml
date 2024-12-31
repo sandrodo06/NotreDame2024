@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NotreDame</string>
+
+    <!-- Toolbar icons' labels -->
+    <string name="ic_home">Home</string>
+    <string name="ic_exercises">Exercises</string>
+    <string name="ic_device">Device</string>
+    <string name="ic_settings">Settings</string>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="age_array"></string-array>
+
+</resources>

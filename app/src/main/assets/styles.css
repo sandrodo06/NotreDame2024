@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none; /* Remove the default underline from the links */
+    color: inherit; /* Ensure the text color doesn't change */
+}
+
+.article img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-bottom: 2px solid #eee;
+}
+
+.content {
+    padding: 15px;
+}
+
+.content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.content p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Mobile Optimization */
+@media (max-width: 600px) {
+    .article {
+        padding: 10px;
+    }
+
+    .content h2 {
+        font-size: 1.2rem;
+    }
+
+    .content p {
+        font-size: 0.9rem;
+    }
+}

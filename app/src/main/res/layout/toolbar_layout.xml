@@ -1,0 +1,107 @@
+<!-- Toolbar -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/toolbar_shadow"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingStart="8dp"
+    android:paddingTop="4dp"
+    android:paddingEnd="8dp"
+    android:paddingBottom="25dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <!-- Home button -->
+    <LinearLayout
+        android:id="@+id/HomeBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="3dp"
+            android:background="@color/white"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_home"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotoflex"
+            android:gravity="center"
+            android:text="@string/ic_home"
+            android:textColor="@color/gray"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- Exercises button -->
+    <LinearLayout
+        android:id="@+id/ExercisesBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="3dp"
+            android:background="@color/white"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_exercises"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotoflex"
+            android:gravity="center"
+            android:text="@string/ic_exercises"
+            android:textColor="@color/gray"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+
+
+    <!-- Settings button -->
+    <LinearLayout
+        android:id="@+id/SettingsBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="3dp"
+            android:background="@color/white"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_settings"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotoflex"
+            android:gravity="center"
+            android:text="@string/ic_settings"
+            android:textColor="@color/gray"
+            android:textSize="16sp"/>
+    </LinearLayout>
+</LinearLayout>
